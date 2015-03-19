@@ -23,7 +23,13 @@ mysql -u root vos3000db < blacklist.sql
 ---
 
 * Upload vos3000guard.pl to your VOS3000 SoftSwitch in /etc
- 
+
+---
+
+cp ./vos3000guard.pl /etc
+
+---
+
 * Make a file executable 
 
 ---
