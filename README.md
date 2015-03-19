@@ -18,7 +18,7 @@ Reported bugs can be sent to chanonm@live.com
 
 ```
 
-mysql -u root vos3000db < blacklist.sql
+# mysql -u root vos3000db < blacklist.sql
 
 ```
 
@@ -26,7 +26,7 @@ mysql -u root vos3000db < blacklist.sql
 
 ```
 
-cp ./vos3000guard.pl /etc
+# cp ./vos3000guard.pl /etc
 
 ```
 
@@ -34,7 +34,7 @@ cp ./vos3000guard.pl /etc
 
 ```
 
- chmod 755 /etc/vos3000guard.pl
+# chmod 755 /etc/vos3000guard.pl
 
 ```
 
@@ -44,6 +44,7 @@ If you want vos3000guard.pl to run every 5 minutes, you should code the time as:
 
 
 ```
+# crontab -e
 
 */5 * * * *      /etc/vos3000guard.pl >> /var/log/vos3000guard.log&
 
