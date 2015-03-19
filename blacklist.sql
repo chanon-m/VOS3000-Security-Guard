@@ -1,8 +1,8 @@
 CREATE TABLE blacklist(
    blacklist_id INT NOT NULL AUTO_INCREMENT,
-   ip_addr VARCHAR(15),
-   reason INT,
-   datetime TIMESTAMP,
+   datetime TIMESTAMP NOT NULL DEFAULT 0,
+   ip_addr VARCHAR(15) NOT NULL,
+   reason INT NOT NULL,
    created_date  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
    PRIMARY KEY ( blacklist_id )
-);
+)
