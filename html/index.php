@@ -1,5 +1,5 @@
 <?php
-    include_once("./includes/web.config.inc.php");
+    include_once("./includes/db.config.inc.php");
 
     if($_POST['action'] ==  'Log In') {
         $username   =   trim($_POST['username']);
