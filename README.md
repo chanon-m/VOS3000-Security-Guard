@@ -56,6 +56,9 @@ If you want vos3000guard.pl to run every 5 minutes, you should code the time as:
 ###Login page
 ![Alt text](http://www.icalleasy.com/images/vos_g_sp1.png "Snapshot Login") 
 
+###Installation page
+![Alt text](http://www.icalleasy.com/images/vos_g_sp1-1.png "Snapshot Installation") 
+
 ###Dashboard page
 ![Alt text](http://www.icalleasy.com/images/vos_g_sp2.png "Snapshot Dashboard") 
 
