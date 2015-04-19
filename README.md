@@ -53,8 +53,11 @@ If you want vos3000guard.pl to run every 5 minutes, you should code the time as:
 ```
 
 #Snapshot
+###Login page
+![Alt text](http://www.icalleasy.com/images/vos_g_sp1.png "Snapshot Login") 
 
-![Alt text](http://www.icalleasy.com/images/vos_g_sp2.png "snapshot 2") 
+###Dashboard page
+![Alt text](http://www.icalleasy.com/images/vos_g_sp2.png "Snapshot Dashboard") 
 
 
 #PROJECT IN PROGRESS
